@@ -10,7 +10,7 @@
 
   backend: {
       name: 'github', # Name of your git hosting service (ie. github, gitlab)
-      repo: 'techfinder797/mze', # Path to your GitHub repository
+      repo: 'techfinder797/zzz', # Path to your GitHub repository
       branch: 'main',
       use_graphql: true
     },
