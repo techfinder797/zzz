@@ -62,7 +62,7 @@
           ],
         sortable_fields: ['title', 'date'],
         summary: "{{title}} - {{date | date('YYYY-MM-DD')}} - {{author}}",
-        editor: { preview: false },
+        editor: { preview: true },
         fields:
           [
             { name: 'title', label: 'Title' },
