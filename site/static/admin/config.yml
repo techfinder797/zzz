@@ -12,7 +12,15 @@
       name: 'github', # Name of your git hosting service (ie. github, gitlab)
       repo: 'techfinder797/zzz', # Path to your GitHub repository
       branch: 'main',
-      use_graphql: true
+      use_graphql: true,
+      
+    commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+
     },
 
   #########################################################################
