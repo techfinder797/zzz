@@ -70,7 +70,7 @@
           ],
         sortable_fields: ['title', 'date'],
         summary: "{{title}} - {{date | date('YYYY-MM-DD')}} - {{author}}",
-        editor: { preview: false },
+        editor: { preview: true },
         fields:
           [
             { name: 'title', label: 'Title' },
@@ -163,7 +163,7 @@
         format: 'json',
         create: true,
         sortable_fields: ['name'],
-        editor: { preview: false },
+        editor: { preview: true },
         fields:
           [
             { name: 'name', label: 'Name' },
@@ -222,7 +222,7 @@
         format: 'json',
         create: true,
         sortable_fields: ['name'],
-        editor: { preview: false },
+        editor: { preview: true },
         fields:
           [
             { name: 'name', label: 'Name' },
