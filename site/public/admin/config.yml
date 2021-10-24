@@ -155,7 +155,7 @@
         format: 'json',
         create: true,
         sortable_fields: ['name'],
-        editor: { preview: false },
+        editor: { preview: true },
         fields:
           [
             { name: 'name', label: 'Name' },
@@ -214,7 +214,7 @@
         format: 'json',
         create: true,
         sortable_fields: ['name'],
-        editor: { preview: false },
+        editor: { preview: true },
         fields:
           [
             { name: 'name', label: 'Name' },
